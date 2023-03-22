@@ -5,5 +5,6 @@
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "stylelint.validate": ["vue", "scss"]
+  "stylelint.validate": ["vue", "scss"],
+  "volar.inlayHints.eventArgumentInInlineHandlers": false
 }
