@@ -2,10 +2,11 @@ import { createApp } from 'vue';
 import './style.scss';
 import App from './App.vue';
 import vuetify from './vuetify';
+import router from './router';
 
 const app = createApp(App);
 
-const plugins = [vuetify];
+const plugins = [vuetify, router];
 
 plugins.forEach((plugin) => app.use(plugin));
 

@@ -3,9 +3,9 @@
 <template>
   <div>
     <!-- sample -->
-    <a href="https://vitejs.dev" target="_blank"> Vite </a>
-    <a href="https://vuejs.org/" target="_blank"> Vue </a>
-    <v-btn>Vuetify</v-btn>
+    <v-btn @click="$router.push({ path: '/samplea' })">to Sample A</v-btn>
+    <v-btn @click="$router.push({ path: '/sampleb' })">to Sample B</v-btn>
+    <router-view></router-view>
   </div>
 </template>
 
