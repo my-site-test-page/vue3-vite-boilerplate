@@ -1,4 +1,9 @@
-<script setup></script>
+<script setup>
+import { useStore } from 'vuex';
+
+const store = useStore();
+console.log(store.state.count);
+</script>
 
 <template>
   <div>

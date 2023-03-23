@@ -14,4 +14,7 @@ module.exports = {
       ],
     },
   ],
+  rules: {
+    'no-empty-source': null,
+  },
 };
